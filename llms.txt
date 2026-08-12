@@ -1,6 +1,7 @@
 # state-machine
+> Define complex workflows declaratively.
 
-Define complex workflows declaratively. ```javascript const machine = new StateMachine({
+Define complex workflows declaratively.
 
 ## API
 - `StateDef`
