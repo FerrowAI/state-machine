@@ -1,4 +1,5 @@
 # State Machine
+![CI](https://github.com/FerrowAI/state-machine/actions/workflows/ci.yml/badge.svg)
 
 Define complex workflows declaratively.
 
