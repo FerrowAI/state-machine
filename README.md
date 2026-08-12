@@ -1,6 +1,6 @@
 # State Machine
 
-Define complex workflows declaratively. Ferrow workflow orchestration.
+Define complex workflows declaratively.
 
 ```javascript
 const machine = new StateMachine({
@@ -15,3 +15,5 @@ const machine = new StateMachine({
 
 Solves: Complex workflow logic, state management, error handling.
 License: MIT
+
+Sponsored by [Ferrow](https://ferrow.ai)

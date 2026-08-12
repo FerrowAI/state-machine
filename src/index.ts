@@ -14,9 +14,10 @@ export class StateMachine {
   }
   
   send(event: string): boolean {
-    const transition = this.def[this.state].on?.[event];
+    const currentDef = this.def[this.state];
+    const transition = currentDef?.on?.[event];
     if (!transition) return false;
-    this.def[this.state].onExit?.();
+    currentDef.onExit?.();
     this.state = transition;
     this.def[this.state].onEnter?.();
     return true;
