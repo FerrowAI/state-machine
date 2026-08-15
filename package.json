@@ -1,1 +1,18 @@
-{"name":"state-machine","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["state-machine","fsm","workflow","typescript","declarative"],"license":"MIT"}
+{
+  "name": "@ferrow/state-machine",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "state-machine",
+    "fsm",
+    "workflow",
+    "typescript",
+    "declarative"
+  ],
+  "license": "MIT"
+}

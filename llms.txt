@@ -1,4 +1,6 @@
 # state-machine
+
+Install: npm install @ferrow/state-machine
 > Define complex workflows declaratively.
 
 Define complex workflows declaratively.
